@@ -1,6 +1,14 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+
 .Background{
-    color: royalblue;
-    background-color: black;
-    width: max-content;
-    height: max-content;
+    background-image: url("/resources/BG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
