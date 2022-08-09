@@ -15,11 +15,37 @@ body::before{
     width: 100%;
     height: 100%;
     position: fixed;
-    -webkit-filter: opacity(18%);
+    z-index: -1;
+    -webkit-filter: opacity(16%) blur(3px);
 }
 
-.Background{
-    height: 100%;
-    position: relative;
+/*  */
+.content{
+    color: white;
+    font-size: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     z-index: 1;
+    /* height: 100vh; */
+}
+.content-height{
+    height: 100vh;
+}
+
+.profile-div{
+    height: 70vh;
+    width: 45vh;
+    background-color: #363636;
+    -webkit-filter: opacity(85%);
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.profile .profile-content{
+
+}
+
+.profile img{
+    border-radius: 50%;
 }
